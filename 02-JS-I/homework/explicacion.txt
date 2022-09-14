@@ -1,0 +1,16 @@
+Variable : Una variable es una manera de almacenar el valor de algo para usar mas tarde .Una variable es un espacio en memoria donde almacena un dato,
+          un espacio donde podemos guardar cualquier tipo de informacion que necesitamos para realizar las acciones de nuestro programa. Para crear
+          una variable utilizamos la palabra (var) seguido de un espacio y nombre de la variable, ademas de la variable podemos asignarle un valor 
+          usando el signo (=).
+          Ejemplo : var nombre = 'Juan';
+
+Strings : Los Strings son bloques de texto ,que se desfinen entre comillas, ya sea simple o doble. Cualquier texto entre comillas es una cadena o string.
+          Ejemplo: var nombrePerro = 'firulair';
+
+Funciones : Las funciones son una parte muy importante de todo lenguaje de programacion y sobre todo en javaScript. Son tipos particulares de objetos,
+           llamados callable objects u objetos invocables ,por lo que tienen las mismas propiedades que cualquier objeto.
+          Ejemplo: function miFuncion() {}
+                   var otrafuncion = function () {};
+                   var yOtra = () => {};
+ Argumentos :                  
+
