@@ -12,5 +12,33 @@ Funciones : Las funciones son una parte muy importante de todo lenguaje de progr
           Ejemplo: function miFuncion() {}
                    var otrafuncion = function () {};
                    var yOtra = () => {};
- Argumentos :                  
+ 
+ Argumentos :fuction logHola(nombre) {
+                 console.log( 'Hola, ' + nombre);
+              }                 
+              logHola('Martin');
+            Si agregamos una variable a los parentesis cuando declaramos la funcio, podemos usar esta variable dentro de nuestra funcion. Indicamos
+              valor de esta variable pasandola a la funcion cuando la llamamos. Entonces en este caso nombre='Martin'
+ 
+ Return : La declaracion return, no se una console.log con lo que salga de una funcion. En este caso es la suma de los dos numero. Es una declaracion 
+           de retorno("return") la unica forma en que los datos escapan de una funcion. Tenga en cuenta que cuando una funcion golpea una declaracion
+           de retorno, la funcion detiene inmediatamente lo que esta haciendo y "devuelve" lo especificado.
+            function sumaDosNumeros(a, b) {
+                var suma = a + b;
+                return suma;
+            }            
+             sumaDosNumeros(1,5); // 6
 
+Declaracoines (if) : Vamos a utilizar operadores de control de flujo y comparacion. El flujo de control("control flow") es una forma de que nuestra 
+                    funcion verifique si algo es true, y ya sea ejecutado el codigo suministrado si es asi o avanzando si no lo. Para esto usaremos la palabra if:
+                    function puedeManejar(edad) {
+                        if (edad > 18) {
+                            return true;
+                        }
+                        return false;
+                    }         
+                    puedeManejar(22); //true  
+
+Valore Boleanos : Es un codigo que alimenta el codigo binario ,es posible que hayas visto codigo binario en el pasado(0001 0110..),es es logica booleana
+                  significa que tiene dos opciones, activar o desactivar ,0 o 1 , verdadero o falso.
+                  Los valores posibles de un dato booleano en JS son :true o false.
